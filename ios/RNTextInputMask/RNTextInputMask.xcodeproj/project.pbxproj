@@ -20,13 +20,6 @@
 			remoteGlobalIDString = 8A808ECB1D5B0FEC00A75B9C;
 			remoteInfo = InputMask;
 		};
-		0031887D1F2F2D1500755291 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 003188761F2F2D1500755291 /* InputMask.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8A808ED51D5B0FEC00A75B9C;
-			remoteInfo = InputMaskTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				0031887C1F2F2D1500755291 /* InputMask.framework */,
-				0031887E1F2F2D1500755291 /* InputMaskTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,13 +161,6 @@
 			fileType = wrapper.framework;
 			path = InputMask.framework;
 			remoteRef = 0031887B1F2F2D1500755291 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0031887E1F2F2D1500755291 /* InputMaskTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = InputMaskTests.xctest;
-			remoteRef = 0031887D1F2F2D1500755291 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
